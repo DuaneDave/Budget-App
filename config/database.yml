@@ -25,6 +25,7 @@ development:
   database: budget_app_development
   adapter: postgresql
   encoding: unicode
+  database: postgres
   pool: 5
   username: postgres
   password: french2dave
@@ -62,6 +63,7 @@ test:
   database: budget_app_test
   adapter: postgresql
   encoding: unicode
+  database: postgres
   pool: 5
   username: postgres
   password: french2dave
