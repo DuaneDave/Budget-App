@@ -1,8 +1,7 @@
+# frozen_string_literal: true
+
 class CreateMoneyGroups < ActiveRecord::Migration[7.0]
   def change
-    create_table :money_groups do |t|
-
-      t.timestamps
-    end
+    create_table :money_groups, &:timestamps
   end
 end
