@@ -1,19 +1,18 @@
-<section id="categories">
-  <%= render 'common/navigation', :title => 'Categories' %>
-  <ul>
+<%= render 'common/navigation', :title => 'Categories' %>
+<section class="container flex">
+  <ul class="list flex">
     <% @categories.each do |category| %>
-      <li>
-        <%= link_to category_transactions_path(category_id: category.id), id: "Group-#{category.id}" do %>
-          <div>
-            <div>
-              <img src=<%= category.icon %> alt=<%= category.name %> >
-            </div>
-            <h2> <%= category.name %> </h2>
-          </div>
+      <li class="item flex">
+        <img src=<%= category.icon %> alt=<%= category.name %> >
+
+        <div class="item-details flex">
+          <%= link_to category_transactions_path(category_id: category.id), id: "Group-#{category.id}" do %>
+            <h3> <%= category.name %> </h3>
+          <% end %>
           <p> $<%= category.total_amount %> </p>
-        <% end %>
+        </div>
       </li>
     <% end %>
   </ul>
-  <%= link_to 'Add New Category', new_category_path  %>
+  <%= link_to 'Add New Category', new_category_path,  class: "btn" %>
 </section>

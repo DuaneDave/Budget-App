@@ -1,5 +1,5 @@
-  <%= render 'common/navigation', :title => 'Categories' %>
-<div>
+<%= render 'common/navigation', :title => 'Categories' %>
+<section class="access flex">
   <%= form_with model: group, url: categories_url, method: :post do |f| %>
     <div class="field">
       <%= f.label :name %>
@@ -12,7 +12,7 @@
     </div>
 
     <div class="actions mt-5">
-      <%= f.submit "Save"%>
+      <%= f.submit "Save", class: "submit" %>
     </div>
   <% end %>
-</div>
+</section>
