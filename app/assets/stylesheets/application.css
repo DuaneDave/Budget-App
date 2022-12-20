@@ -221,6 +221,10 @@ body {
   border-bottom: none;
 }
 
+.text p {
+  font-size: 1.06rem;
+}
+
 .transactions li p {
   margin-block: 0.6rem;
   color: rgb(129, 129, 129);
@@ -247,10 +251,6 @@ body {
 
 .text h1 span {
   color: var(--secondary);
-}
-
-.text p {
-  font-size: 1.06rem;
 }
 
 .content {
