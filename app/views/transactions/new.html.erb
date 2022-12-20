@@ -1,5 +1,5 @@
 <%= render 'common/navigation', :title => 'Transaction' %>
-<div>
+<section class="access flex">
   <%= form_with model: operation, url: category_transactions_url(category_id: id), method: :post do |f| %>
     <div class="field">
       <%= f.label :name %>
@@ -11,13 +11,13 @@
       <%= f.number_field :amount, autofocus: true, placeholder: 'Amount (Greater than 0)' %>
     </div>
 
-    <div >
+    <div class="field">
       <%= f.label :categories%>
       <%= f.select :categories, @categories.map { |t| [t.name, t.id]}, { :selected => id }, { :multiple => true, class: "categories"} %>
     </div>
 
     <div>
-      <%= f.submit "Save" %>
+      <%= f.submit "Save", class: "submit" %>
     </div>
   <% end %>
-</div>
+</section>
