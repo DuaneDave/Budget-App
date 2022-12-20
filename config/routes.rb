@@ -3,8 +3,8 @@ Rails.application.routes.draw do
 
   root to: 'home#index'
 
-  resources :categories, only: %i[new create index] do 
-    resources :transactions, only: %i[index create new] 
+  resources :categories, only: %i[new create index] do
+    resources :transactions, only: %i[index create new]
   end
 
   resources :users, only: %i[index]
