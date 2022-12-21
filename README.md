@@ -79,7 +79,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo coming soon...](https://yourdeployedapplicationlink.com)
+- [Live Demo](https://www.loom.com/share/c63597a66c6f4f82bc48018c234be8f7)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,7 +188,7 @@ If you like this project buy the team a [drink](.../.../)
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank [Microverse](https://github.com/principlebrothers/CosmosExpress/issues/new) for inspiring this project
+I would like to thank Microverse for inspiring this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
