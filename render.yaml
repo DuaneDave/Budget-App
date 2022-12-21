@@ -19,5 +19,6 @@ services:
         sync: false
   - type: redis
     name: mysite-redis
+    ipAllowList: []
     plan: free
     maxmemoryPolicy: noeviction
