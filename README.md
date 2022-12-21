@@ -188,7 +188,10 @@ If you like this project buy the team a [drink](.../.../)
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for inspiring this project
+I would like to acknowledge:
+
+- [Microverse](https://www.microverse.org/) for the opportunity to work on this project
+- [The creative common](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) for the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
