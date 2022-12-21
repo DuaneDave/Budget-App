@@ -2,7 +2,7 @@ databases:
   - name: mysite
     databaseName: mysite
     user: mysite
-    ipAllowlist: []
+    ipAllowList: []
 
 services:
   - type: web
