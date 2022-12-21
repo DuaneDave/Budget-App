@@ -19,4 +19,4 @@ services:
   - type: redis
     name: mysite-redis
     plan: free
-    maxMemory: noeviction
+    maxmemoryPolicy: noeviction
