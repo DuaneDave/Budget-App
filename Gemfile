@@ -43,7 +43,7 @@ gem 'devise'
 
 gem 'ffi'
 
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
