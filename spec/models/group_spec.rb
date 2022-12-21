@@ -15,7 +15,7 @@ RSpec.describe Group, type: :model do
     end
 
     it 'should allow valid name' do
-      group.name = 'Outing'
+      group.name = 'Outin'
       expect(group).to be_valid
     end
 
